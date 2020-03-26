@@ -61,7 +61,7 @@ from ..items import QuotetutorialItem
 #         items = QuotetutorialItem()
 #      
 #         all_div_quotes = response.css('div.quote') # this is a list so we can extract 
-#         
+#        
 #         for quotes in all_div_quotes:
 #             title = quotes.css(".text::text").extract()
 #             author = quotes.css(".author::text").extract()
