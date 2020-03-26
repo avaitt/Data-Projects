@@ -21,7 +21,7 @@ class AmazonSpiderSpider(scrapy.Spider):
             items['product_name'] = n
             items['product_musician'] = m
             items['product_imagelink'] = i
-    
+   
             yield items
         
         str_next_page = response.css("li.a-last a::attr(href)").get()
