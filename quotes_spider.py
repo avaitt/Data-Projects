@@ -2,7 +2,7 @@
 """
 Created on Mon Mar 23 13:14:57 2020
 
-@author: Acer
+@author: Adhvaith Vijay
 """
 
 # HOW to run spyder and scrape title
