@@ -5,7 +5,6 @@ Created on Mon Mar 23 13:14:57 2020
 @author: Adhvaith Vijay
 """
 
-# HOW to run spyder and scrape title
 import scrapy
 from ..items import QuotetutorialItem
 
