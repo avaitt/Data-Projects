@@ -33,3 +33,4 @@ class AmazonSpiderSpider(scrapy.Spider):
             yield response.follow(next_page, callback = self.parse) 
     
 # we can bypass user restrictions with user agents AND proxies (can combine into hybrid method)
+# this is a commit btw
