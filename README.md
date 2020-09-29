@@ -7,4 +7,4 @@ In this notebook I explored some machine learning techniques used in image class
 
 ### Anomaly Detection using Log Files
 
-performing reated analysis pipeline that automates recommendations based on the kurtosis (i.e. sharpness of a peak) and skewedness of CLV
+Anomaly detection has always been a subject of interest to me. In this project I extracted datestamps/timestamps from log files in order to find some insights. The crux of this project is that if an individual has an anomalous timestamp in relation to other users then that could possibly constitute something malicious. After manually performing this analysis in Part 1 of this notebook I involved Scikit-learn in Part 2 to automate recommendation on anomalous timestamps, based on the kurtosis (i.e. sharpness of a peak) of log-access data
